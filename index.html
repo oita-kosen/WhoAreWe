@@ -19,19 +19,22 @@
     <!-- Always shows a header, even in smaller screens. -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="header mdl-layout__header">
-            <div class="mdl-layout-icon"></div>
             <div class="mdl-layout__header-row">
                 <!-- Title -->
                 <span class="site-title mdl-layout-title">About Us</span>
                 <!-- Add spacer, to align navigation to the right -->
                 <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="#top">Top</a>
+                    <a class="mdl-navigation__link" href="#profile">Members</a>
+                </nav>
             </div>
         </header>
         <!-- Content -->
-        <main class="page-content mdl-layout__content">
+        <main class="page-content mdl-layout__content" id="top">
             <div class="Top-feature"></div>
             <div class="wrapper">
-                <div class="profile-section">
+                <div class="profile-section" id="profile">
                     <h2 class="profile-section-title">Members</h2>
 
                     <div class="profile-cards">
