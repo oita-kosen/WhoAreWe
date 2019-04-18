@@ -12,6 +12,10 @@ body{
     background-color: #ffbf1f;
 }
 
+.header > .mdl-layout__header-row{
+    padding-left: 34px;
+}
+
 .site-title.mdl-layout-title {
     display: inline-block;
     font-family: 'Raleway', sans-serif;
@@ -163,6 +167,7 @@ body{
     justify-content: center;
     margin: 10px auto;
     /* text-align: right; */
+    align-content: space-between;
 }
 
 .sns-icons a{
@@ -175,7 +180,7 @@ body{
     position: relative;
     display: inline-block;
     width: 36px;
-    margin: 0 4px;
+    margin: 2px;
     height: 27px;
     padding-top: 9px;
     border-width: 0px;
@@ -222,14 +227,15 @@ body{
     .profile-name
     {
         display: inline-block;
-        margin: 20px auto auto 15px;
+        margin: 20px auto auto 10px;
         text-align: center;
         font-size: 28px;
     }
 
     .sns-icons{
-        margin: auto 2% auto;
-        /* width: 100%; */
+        margin: auto 0% auto;
+        width: 18%;
+        /* height: 100%; */
     }
 }
 
