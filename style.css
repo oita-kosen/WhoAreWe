@@ -31,6 +31,18 @@ body{
     background-color: #ffd877ad;
 }
 
+/* iPhone X Size */
+@media screen and (max-width: 440px)
+{
+    .site-title.mdl-layout-title {
+        font-size: 22px;
+        margin-right: 30px;
+    }
+    .navigation-link.mdl-navigation__link{
+        font-size: 16px;
+        padding: auto 5px;
+    }
+}
 /* -------------------
  * Page Contents
  * ------------------- */
@@ -223,7 +235,7 @@ body{
 }
 
 /* iPhone X Size */
-@media screen and (max-width: 375px)
+@media screen and (max-width: 440px)
 {
     .profile-name
     {
