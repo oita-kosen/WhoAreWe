@@ -205,15 +205,16 @@ body{
 
     .profile-icon{
         display: inline-block;
-        margin: auto 50px;
+        margin: auto 5%;
     }
 
     .profile-name
     {
         display: inline-block;
-        margin: 28px auto auto 15px;
+        margin: 20px auto auto 15px;
         text-align: center;
         font-size: 28px;
+        width: 100%;
     }
 
     .sns-icons{
