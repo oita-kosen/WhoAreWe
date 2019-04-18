@@ -205,7 +205,7 @@ body{
 
     .profile-icon{
         display: inline-block;
-        margin: auto 5%;
+        margin: auto 2%;
     }
 
     .profile-name
@@ -214,10 +214,19 @@ body{
         margin: 20px auto auto 15px;
         text-align: center;
         font-size: 28px;
-        width: 100%;
     }
 
     .sns-icons{
-        margin: auto 30px auto;
+        margin: auto 2% auto;
+        /* width: 100%; */
+    }
+}
+
+/* iPhone X Size */
+@media screen and (max-width: 375px)
+{
+    .profile-name
+    {
+        font-size: 24px;
     }
 }
