@@ -238,10 +238,11 @@ body{
     .profile-name
     {
         display: inline;
-        margin: 10px auto;
-        text-align: center;
+        margin: 10px auto 10px 25px;
+        text-align: left;
         font-size: 28px;
         /* height: 60px; */
+        width: 80%;
         padding: auto 0;
     }
 
