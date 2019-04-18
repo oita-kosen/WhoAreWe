@@ -97,11 +97,14 @@ body{
     padding: 3px 0;
 }
 
+
+
 .profile-card.mdl-card{
     margin: 3px;
     max-width: 23%;
     min-width: 130px;
-    min-height: 100px;
+    /* min-height: 100px; */
+    height: 300px;
 }
 
 .profile-card > .mdl-card__title{
@@ -110,8 +113,8 @@ body{
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    height: 320px;
     transition: all 0.3s;
+    height: 100%;
 }
 
 
@@ -138,6 +141,8 @@ body{
     color: rgb(90, 90, 90);
     height: auto;
 }
+
+
 
 .sns-icons{
     display: flex;
@@ -170,4 +175,48 @@ body{
 
 .sns-icons a:hover{
     background: rgba(255, 93, 164, 0.77);
+}
+
+/* iPad Size */
+@media screen and (max-width: 768px)
+{
+    .profile-cards{
+        padding: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-card.mdl-card{
+        margin: 1.5px 0;
+        max-width: unset;
+        min-width: 130px;
+        min-height: 100px;
+        width: 100%;
+        height: 150px;
+    }
+
+    .profile-card > .mdl-card__title{
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+
+    .profile-icon{
+        display: inline-block;
+        margin: auto 50px;
+    }
+
+    .profile-name
+    {
+        display: inline-block;
+        margin: 28px auto auto 15px;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .sns-icons{
+        margin: auto 30px auto;
+    }
 }
