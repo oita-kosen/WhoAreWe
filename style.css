@@ -14,12 +14,21 @@ body{
 
 .site-title.mdl-layout-title {
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding: 0;
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 80px;
     font-size: 24px;
+}
+
+.navigation-link.mdl-navigation__link{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navigation-link.mdl-navigation__link:hover {
+    background-color: #ffd877ad;
 }
 
 /* -------------------
