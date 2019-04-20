@@ -44,11 +44,11 @@ body{
 @media screen and (max-width: 440px)
 {
     .site-title.mdl-layout-title {
-        font-size: 22px;
-        margin-right: 30px;
+        font-size: 20px;
+        margin-right: 4px;
     }
     .navigation-link.mdl-navigation__link{
-        font-size: 16px;
+        font-size: 14px;
         padding: auto 5px;
     }
 }
