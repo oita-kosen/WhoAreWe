@@ -5,6 +5,10 @@ body{
     background-color: rgb(247, 247, 247);
 }
 
+.noto-serif-sc { font-family: 'Noto Serif SC', serif; }
+.noto-serif-jp { font-family: 'Noto Serif JP', serif; }
+
+
 /* -------------------
  * Page Header
  * ------------------- */
@@ -13,17 +17,18 @@ body{
 }
 
 .header > .mdl-layout__header-row{
-    padding-left: 34px;
+    padding-left: 32px;
 }
 
 .site-title.mdl-layout-title {
     display: inline-block;
-    font-family: 'Raleway', sans-serif;
-    padding: 0;
+    font-family: 'Noto Serif JP', serif;
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: 80px;
-    font-size: 24px;
+    margin-right: 20px;
+    font-size: 28px;
+    letter-spacing: 8px;
+    /* font-weight: 200; */
 }
 
 .navigation-link.mdl-navigation__link{
